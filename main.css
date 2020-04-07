@@ -158,6 +158,24 @@ legend {
   padding-left: 20px;
 }
 
+.dueDate {
+  text-align: left;
+}
+
 .tip {
   font-size: .5em;
+}
+
+.taskContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.task_check {
+  margin: auto 10px;
+}
+
+.task_check input{
+  width: 30px;
+  height: 30px
 }
